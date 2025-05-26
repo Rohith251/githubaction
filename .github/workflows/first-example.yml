@@ -7,7 +7,7 @@ jobs:
 
     steps:
     - name: Checkout Repo
-      uses: action/Checkout@V4
+      uses: actions/Checkout@V4
 
     - name: Welcome message
       run: echo "my first gitlab action repo"  
